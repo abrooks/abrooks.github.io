@@ -1,4 +1,4 @@
-iname: Build and deploy Jekyll to GitHub Pages
+name: Build and deploy Jekyll to GitHub Pages
 
 on:
   push:
