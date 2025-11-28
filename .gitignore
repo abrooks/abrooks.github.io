@@ -1,0 +1,54 @@
+# -------------------------------------------------------------------
+# Jekyll and site build artifacts
+# -------------------------------------------------------------------
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# If you build locally outside Docker
+.bundle/
+vendor/
+
+# -------------------------------------------------------------------
+# Ruby and Bundler
+# -------------------------------------------------------------------
+Gemfile.lock        # optional: commit if you want reproducible builds
+*.gem
+*.rbc
+
+# -------------------------------------------------------------------
+# Node / front-end (if using JS or CSS tooling)
+# -------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# -------------------------------------------------------------------
+# Docker and Compose
+# -------------------------------------------------------------------
+*.pid
+*.log
+tmp/
+docker-compose.override.yml
+.env
+.env.*
+
+# -------------------------------------------------------------------
+# OS / editor cruft
+# -------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.tmp
+*~
+.idea/
+.vscode/
+.project
+.settings/
+*.sublime-*
+

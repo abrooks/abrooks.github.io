@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"     # site
+      - "35729:35729"   # livereload
+    volumes:
+      - .:/site
+      - bundle_cache:/usr/local/bundle
+    command: bundle exec jekyll serve --livereload --host 0.0.0.0 --incremental --drafts
+volumes:
+  bundle_cache:
+

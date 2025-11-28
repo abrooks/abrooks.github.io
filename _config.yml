@@ -1,0 +1,23 @@
+ititle: "Aaron Brooks"
+description: "Software engineer, architect, and writer"
+url: "https://brooks1.net"  # your canonical domain
+baseurl: ""                 # root of site since custom domain maps to root
+theme: minima               # or a custom theme
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# optional for categories/tags
+collections:
+  posts:
+    output: true
+
+# social links (used by minima and seo_tag)
+author:
+  name: Aaron Brooks
+  github: abrooks
+  linkedin: aarondavidbrooks
+
