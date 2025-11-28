@@ -23,6 +23,7 @@ jobs:
       # Set up Ruby with Bundler cache
       - uses: ruby/setup-ruby@v1
         with:
+          ruby-version: '3.3'
           bundler-cache: true
 
       # Build the site to _site
