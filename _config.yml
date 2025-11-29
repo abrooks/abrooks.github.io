@@ -2,7 +2,7 @@ ititle: "Aaron Brooks"
 description: "Software engineer, architect, and writer"
 url: "https://brooks1.net"  # your canonical domain
 baseurl: ""                 # root of site since custom domain maps to root
-theme: minima               # or a custom theme
+theme: jekyll-theme-yat               # or a custom theme
 markdown: kramdown
 
 plugins:
